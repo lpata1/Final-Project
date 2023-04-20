@@ -4,10 +4,14 @@
 ________________________________________________________________________________________________________________
 The main idea of my project will involve web pages and APIs that will be veyr valuable for me to use in my day to day life. As a finance student, financing calculators and stock analysis are a very important part of my career. I wanted to make a web page that would be able to help me with these tasks. My MVP vs. my stretch goal would be between what I am able to accomplish. These are my main ideas that I am shooting for:
 
+
+***Overall Goal is to make financial data availble to those without Finance Backgrounds
 -Web page to solve all finance equations you need PV, FV, PMT, NPER, RATE.
 -Web Page using API’s to find the best performing stocks of a day (and the worst).
--Putting in some stock tickers and it runs a comparative analysis of the companies ratios that are inputted. 
--Put in a stock ticker and it gives back a formatted structure about its ratios, business details, and more in a formatted manner. Similar to how a Bloomberg description screen does it. 
+-Stock Ticker of S&P 500 stocks (Or Dow Jones Depending)
+-Simplified Mortgage Calculator for people that are buying houses without a financial background. 
+-Putting in some stock tickers and it runs a comparative analysis of the companies ratios that are inputted. (Comps Analysis)
+-Put in a stock ticker and it gives back a formatted structure about its ratios, business details, and more in a formatted manner. Similar to how a Bloomberg description screen does it. (Basically A Free Bloomberg)
 
 Ideally I think it's possible to complete the top two items, the third will be a stretch (hopefully enough information is available), and the last idea would be a long shot but I'll try my best to complete it. 
 ________________________________________________________________________________________________________________
@@ -29,13 +33,13 @@ https://rapidapi.com/blog/best-stock-api/
 I plan on continuing to search Google to find more free links. I know that Bloomberg data is very expensive so my goal is to find a way to give similar information but for free with the API key. 
 ________________________________________________________________________________________________________________
 
-<**Project Schedule: You have 6 weeks (roughly) to finish the project. Draft a general timeline for your project. Depending on your project, you might be able to provide a detailed schedule or only an overview. Preparation of a longer project is also accompanied by present uncertainty, and this schedule will likely require revisions as the project progresses**.>**
+<**Project Schedule: You have 6 weeks (roughly) to finish the project. Draft a general timeline for your project. Depending on your project, you might be able to provide a detailed schedule or only an overview. Preparation of a longer project is also accompanied by present uncertainty, and this schedule will likely require revisions as the project progresses.**>
 ________________________________________________________________________________________________________________
 Week of 4/9) Have all APIs that will be used. Write code for Finance Calculator Equations. Work on API for best and worst performing stocks of the day.
 
 Week of 4/16) Finish API for best and worst performing stocks of the day. Work on Comparative Analysis Report. 
 
-Week of 4/23) Finish Comparative Analysis Report. Work on Stock Description Page.
+Week of 4/23) Finish Comparative Analysis Report. Work on Stock Description Page. Make a Mortgage Calculator that will hep people with no financial background. 
 
 Week of 4/30 *short week*) Add finishing touches, and any other possible features that you think sould be added. Have web page formatting down. Turn in Assignment. 
 
@@ -50,3 +54,12 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________________________
 I think the biggest threat to this problem is that not all data will be available for free. My back up plan if this is the case, is to do less but to go more indepth on the modules and functions that I have started to create. 
 ________________________________________________________________________________________________________________
+
+Main Project Goals:
+***Overall Goal is to make financial data availble to those without Finance Backgrounds
+-Web page to solve all finance equations you need PV, FV, PMT, NPER, RATE.
+-Web Page using API’s to find the best performing stocks of a day (and the worst).
+-Stock Ticker of S&P 500 stocks (Or Dow Jones Depending)
+-Simplified Mortgage Calculator for people that are buying houses without a financial background. 
+-Putting in some stock tickers and it runs a comparative analysis of the companies ratios that are inputted. (Comps Analysis)
+-Put in a stock ticker and it gives back a formatted structure about its ratios, business details, and more in a formatted manner. Similar to how a Bloomberg description screen does it. (Basically A Free Bloomberg)
