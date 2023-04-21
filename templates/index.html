@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+   <head>
+      <title>Flask App</title>
+   </head>
+   <body>
+      <h1>This is an Amazing App that will help with Finance related Problems</h1>
+      <p>Select a Button for the Finance Help you need!:</p>
+      <form action="{{ url_for('button1') }}" method="get">
+         <button name="button1">Financial Calculator</button>
+      </form>
+      <form action="{{ url_for('button2') }}" method="get">
+         <button name="button2">Find the best and Worst Performing Stocks of the Day</button>
+      </form>
+      <form action="{{ url_for('button3') }}" method="get">
+         <button name="button3">Stock Ticker</button>
+      </form>
+      <form action="{{ url_for('button4') }}" method="get">
+         <button name="button4">Simplified Mortgage Calculator</button>
+      </form>
+      <form action="{{ url_for('button5') }}" method="get">
+         <button name="button5">Stock Ticker Analysis Screen</button>
+      </form>
+      <form action="{{ url_for('button6') }}" method="get">
+         <button name="button6">Two stock comparative Analysis Screen</button>
+      </form>
+   </body>
+</html>
