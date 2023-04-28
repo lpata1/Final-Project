@@ -4,8 +4,16 @@
       <title>Flask App</title>
    </head>
    <body>
-      <h1>UNNAMED TEST FEATURE</h1>
-      <p>UNNAMED TEST FEATURE:</p>
-      </form>
+    <h1>Simplified Mortgage Calculator! To find an ideal rate put a question mark, or to find an ideal payment put a questionmark. Please input all other info! (Question Mark: ?)</h1>
+    <form action="/mortgage" method="POST">
+       <label for="NPER">Years:</label>
+       <input type="text" step="0.01"  id="NPER" name="NPER"><br><br>
+       <label for="RATE">Annual Rate:</label>
+       <input type="text" step="0.01" id="RATE" name="RATE"><br><br>
+       <label for="PV">Principal:</label>
+       <input type="text" step="0.01"  id="PV" name="PV"><br><br>
+       <label for="PMT">Payment:</label>
+       <input type="text" step="0.01"  id="PMT" name="PMT"><br><br>
+       <button type="submit">Submit</button>
    </body>
 </html>

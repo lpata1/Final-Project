@@ -4,13 +4,12 @@
       <title>Flask App</title>
    </head>
    <body>
-      <h1>UNNAMED TEST FEATURE</h1>
-      <form action="/submit" method="POST">
-         <label for="input1">Input 1:</label>
-         <input type="text" id="input1" name="input1"><br><br>
-         <label for="input2">Input 2:</label>
-         <input type="text" id="input2" name="input2"><br><br>
-         <button type="submit">Submit</button>
+      <h1>Click to see the webpage for the best and worst stocks of the day.</h1>
+      <form action="{{ url_for('best') }}" method="get">
+        <button name="best">Best Performing stocks of the Day</button>
+     </form>
+     <form action="{{ url_for('worst') }}" method="get">
+        <button name="worst">Worst Performing stocks of the Day</button>
       </form>
    </body>
 </html>

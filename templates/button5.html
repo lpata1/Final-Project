@@ -4,8 +4,12 @@
       <title>Flask App</title>
    </head>
    <body>
-      <h1>UNNAMED TEST FEATURE</h1>
-      <p>UNNAMED TEST FEATURE:</p>
+      <h1>Enter a Stock Ticker and it will give you a brief stock overview.</h1>
+      <form action="/Ticker" method="POST">
+        <label for="Ticker">Ticker:</label>
+        <input type="text" step="0.01"  id="Ticker" name="Ticker"><br><br>
+        <button type="submit">Submit</button>
+     </form>
       </form>
    </body>
 </html>
