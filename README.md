@@ -1,6 +1,9 @@
 # Final-Project
 Final Project
 
+There are many different finance possibilities through this Flask Application. From calculators to APIs, it can really help a finance professional!
+
+
 Team: Luke Pata (Just me)
 
 More Links to use for the project Proposal:
